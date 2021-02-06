@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader } from '@material-ui/core';
 import Book from "../components/Book";
 import Header from "../components/Header";
 import { FormInput, FormBtn } from "../components/FormInput";
-import API from "./utils/API";
+import API from "./utils/api";
 
 function Search() {
   const [formObject, setFormObject] = useState({}); // using this to get book title
